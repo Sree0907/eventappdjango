@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+#logo{
+    width: 200px;
+}
+nav{
+    display: flex;
+    gap: 20px;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+#events{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.event-card{
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+    padding: 100px;
+    position: relative;
+    top: 150px;
+    border-radius: 10px;
+    width: 300px;
+    font-size: large;
+}
+
+.details-btn{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+}
+.form-cls{
+    background-color: rgba(0,0,0,0.2);
+    padding: 20px;
+}
+.apply-btn{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.details-card{
+    text-align: center;
+    box-shadow: 0 5px 10px rgb(1, 19, 46);
+    padding: 30px;
+    position: relative;
+    top: 50px;
+    bottom: 50px;
+    border-radius: 10px;
+    width: 250px;
+}
