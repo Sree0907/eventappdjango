@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'eventmanagementproject.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-   'default': dj_database_url.config(default='postgres://fisatevent_00ti_user:31BLPaWMtiGFXBgFcf5WSKoyrbIBNKLa@dpg-ck0nvpe3ktkc738kf680-a/fisatevent_00ti')
+   'default': dj_database_url.config(default='postgres://fisatevent_00ti_user:31BLPaWMtiGFXBgFcf5WSKoyrbIBNKLa@dpg-ck0nvpe3ktkc738kf680-a.oregon-postgres.render.com/fisatevent_00ti')
 }
 
 
